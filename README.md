@@ -21,7 +21,7 @@ Kyle Ngo - Software Design Doc
 
 Nicholas Siu - Github
 
-Andres Cagungun - Software Design Document
+Andres Cagungun - Software Design Doc
 
 Joseph Lopez - 
 
