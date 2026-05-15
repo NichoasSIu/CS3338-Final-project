@@ -17,7 +17,7 @@ People:
 
 Jaiden Ramirez Gannon -
 
-Kyle Ngo -
+Kyle Ngo - Software Design Doc
 
 Nicholas Siu - Github
 
