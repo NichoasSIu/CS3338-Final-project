@@ -1,4 +1,70 @@
 \documentclass{article}
-egin{document}
-TBD
-nd{document}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Design Specification}
+\author{Team 13}
+\date{\today}
+\maketitle
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Project Overview}
+This project is a mock Final Fantasy VII-style RPG game application. The software is designed to include a basic user interface, game logic, character actions, and turn-based battle mechanics.
+
+\section{Pages and Parts of the Project}
+
+\subsection{Main Menu}
+The main menu allows the user to start the game, access options, or exit the application.
+
+\subsection{Game Screen}
+The game screen displays the player character, environment, and available user actions.
+
+\subsection{Battle Screen}
+The battle screen allows the player to choose attacks, view health, and interact with enemy characters.
+
+\subsection{Inventory System}
+The inventory system will store items, weapons, or other player resources.
+
+\subsection{Save and Load System}
+The save and load system will store basic player progress, character status, and game state.
+
+\section{Tools Used}
+
+\begin{itemize}
+    \item GitHub - Repository and version control
+    \item Jira - Sprint planning and task management
+    \item TestRail - Test case and test run documentation
+    \item LaTeX - Project documentation
+    \item Docker - Container environment setup
+\end{itemize}
+
+\section{Packages, Dependencies, and Libraries}
+
+\begin{itemize}
+    \item Java Development Kit (JDK)
+    \item JavaFX
+    \item Git
+    \item Docker
+    \item Optional: JSON library for save data
+\end{itemize}
+
+\section{Docker Container Requirements}
+
+The Docker container should include the required runtime environment for the project to run. The container may need:
+
+\begin{itemize}
+    \item Base image with Java installed
+    \item JavaFX dependencies
+    \item Source code copied into the container
+    \item Commands to compile and run the project
+\end{itemize}
+
+\section{Future Improvements}
+
+Future improvements may include expanded maps, additional characters, more battle options, enemy AI, save/load improvements, and a more detailed inventory system.
+
+\end{document}
