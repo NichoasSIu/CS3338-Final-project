@@ -11,7 +11,7 @@ Usage:
 2. Navigate to the folder...
 3. Run the program...
 
-Jira Link:
+Jira Link: https://cs3338-group-13-2026.atlassian.net/jira/software/projects/FRP/boards/135?sprintStarted=true&sprints=36&atlOrigin=eyJpIjoiMzJlNzNiNjEwZDA2NGYyMWE0NGE0MzI2NDBmMGRmZmIiLCJwIjoiaiJ9
 
 People: 
 
