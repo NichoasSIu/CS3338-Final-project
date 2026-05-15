@@ -21,7 +21,7 @@ Kyle Ngo -
 
 Nicholas Siu - Github
 
-Andres Cagungun -
+Andres Cagungun - Software Design Document
 
 Joseph Lopez - 
 
