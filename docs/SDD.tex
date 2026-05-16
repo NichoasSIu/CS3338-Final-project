@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{longtable}
+\geometry{margin=1in}
+
+\title{Software Design Document \\ \large Final Project Submission: FF7 Mockup}
+\author{Andres Cagungun \\ Kyle Ngo \\ Jaiden Ramirez-Gannon \\ Nicholas Siu \\ Joseph Lopez}
+\date{Version 1.0 \\ May 15, 2026}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+\subsection{Purpose}
+This is a take on a traditional RPG based on Final Fantasy 7. This breaks down vital aspects of an RPG, like menus (main menu, combat menu, etc.), turn-based combat system, enemy spawn rate, reward system, character/role selection, equipment balancing, and level balancing.
+
+\subsection{Intended Audience}
+Developers, testers, instructors.
+
+\subsection{System Overview}
+A high-level overview of the RPG structure and gameplay flow.
+
+\section{System Architecture}
+
+\subsection{Workflow}
+World $\rightarrow$ Encounter $\rightarrow$ Battle $\rightarrow$ Rewards $\rightarrow$ Return to World
+
+\section{User Interface}
+
+\subsection{Main Menu}
+\begin{itemize}
+    \item \textbf{Start Game} — Leads to save file selection.
+    \item \textbf{Save Files} — Stores player progress, character status, and game state. Up to 10 save files.
+    \item \textbf{Options} — Includes cheats, volume, hotkeys, etc.
+    \item \textbf{Exit} — Closes the game.
+\end{itemize}
+
+\subsection{In-Game Menu}
+After loading into the world, players may open a menu containing:
+\begin{itemize}
+    \item Continue
+    \item Characters (names, descriptions, health, secondary bars, equipment)
+    \item Inventory (equipment, potions, lore items)
+    \item Equipment (weapons, armor, magic staves, etc.)
+    \item Settings (game, display, audio)
+    \item Exit to Main Menu
+    \item Exit Game
+\end{itemize}
+
+\section{Glossary}
+\begin{longtable}{p{0.25\linewidth} p{0.65\linewidth}}
+\textbf{Term} & \textbf{Definition} \\
+\hline
+RPG & Role-Playing Game \\
+EXP & Experience Points \\
+\end{longtable}
+
+\section{References}
+None at the moment.
+
+\end{document}

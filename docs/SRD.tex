@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{longtable}
+\geometry{margin=1in}
+
+\title{Software Requirements Document \\ \large Final Project Submission: FF7 Mockup}
+\author{Andres Cagungun \\ Kyle Ngo \\ Jaiden Ramirez-Gannon \\ Nicholas Siu \\ Joseph Lopez}
+\date{Version 1.0 \\ May 15, 2026}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+\subsection{Purpose}
+The goals of this document are to define the goals of our RPG from story progression, combat, exploration, and leveling.
+
+\subsection{Intended Audience}
+Developers, testers, and instructors.
+
+\subsection{System Overview}
+A turn-based RPG with:
+\begin{itemize}
+    \item Party of characters
+    \item Random or scripted encounters
+    \item Equipment and inventory
+    \item Story chapters
+    \item Save/load functionality
+\end{itemize}
+
+\section{External Interface Requirements}
+
+\subsection{User Interface Requirements}
+\begin{itemize}
+    \item The battle menu must allow selecting commands.
+    \item Inventory must support sorting and equipping.
+    \item Dialogue boxes must support branching text.
+    \item Settings menu must allow audio/controls adjustments.
+\end{itemize}
+
+\subsection{Software Interfaces}
+\begin{itemize}
+    \item Game engine (Unity/Godot/etc.)
+    \item Database or JSON files for game data
+    \item Save system (local storage)
+\end{itemize}
+
+\subsection{Hardware Interfaces}
+If applicable:
+\begin{itemize}
+    \item Controller support
+    \item Keyboard/mouse
+\end{itemize}
+
+\section{Legal and Ethical Considerations}
+
+\subsection{User Data}
+\begin{itemize}
+    \item Save files stored locally
+    \item No personal data collected
+\end{itemize}
+
+\subsection{Copyright \& IP}
+\begin{itemize}
+    \item Must avoid copying any assets, characters, music, or story from FF7
+    \item All art, music, and names must be original
+\end{itemize}
+
+\subsection{Ethical Gameplay Considerations}
+\begin{itemize}
+    \item Avoid harmful stereotypes
+    \item Provide accessibility options
+    \item Ensure fair difficulty
+\end{itemize}
+
+\section{Glossary}
+\begin{longtable}{p{0.25\linewidth} p{0.65\linewidth}}
+\textbf{Term} & \textbf{Definition} \\
+\hline
+RPG & Role-Playing Game \\
+EXP & Experience Points \\
+\end{longtable}
+
+\end{document}
